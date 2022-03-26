@@ -1,0 +1,209 @@
+潜伏在波涛下寂静无声，
+跃升于波涛上乘风化龙。
+
+
+
+MgCl2     95.211g/mol
+T<2500K   solid  Cp=92.05J/(mol·K)=966.80J/(kg·K)
+T>2500K    gas   Cp=62.30J/(mol·K)=660.64J/(kg·K)
+
+B2O3  70g/mol
+T<3000K solid Cp=130J/(mol·K)=1857.14J/(kg·K)
+
+睡在我上铺的兄弟
+component   组成部分，成分
+mature   成熟
+integration 集成，综合
+hydrogen 氢
+ complexity 复杂性
+volumetric 体积的
+normalize 使正常化；使规格化，使标准化
+ignition 点火
+dramatically 显著地，剧烈地；戏剧地；引人注目地
+necessitate          vt. 使成为必需，需要；迫使
+robust                 adj. 强健的；健康的；粗野的；粗鲁的
+cavity                  n. 腔；洞，凹处
+Regenerative       adj. 再生的，更生的；更新的
+sustained            adj. 持续的；持久的；持久不变的
+ capacity             n. 能力；容量；资格，地位；生产力
+hence                 adv. 因此；今后
+via                      prep. 经由，通过；凭借，借助于
+endothermic       adj. [热] 吸热的；温血的
+decompose         vt. 分解；使腐烂
+molecular            adj. 分子的；由分子组成的
+Ethylene              n. 乙烯
+ representative    adj. 典型的，有代表性的；代议制的；表现的，体现的；与表象有关的
+                           n. 代表；典型；众议员；销售代表
+gaseous              adj. 气态的，气体的；无实质的
+surrogate            adj. 替代的，代理的
+                           v. 取代，替代；指定（某人）为自己的代理人
+                           n. 代理人；主教代理人；遗嘱检验法官
+hereafter             adv. （法律文件等）以下；今后，此后；死后
+                           n. 死后生活；死后的灵魂存在；来世，阴世；将来
+                           adj. 今后的，此后的；死后的
+mimic                 vt. 模仿，摹拟
+                          n. 善于模仿的人；会模拟的动物（或植物）
+                          adj. 模仿的，模拟的；假装的
+characteristic      adj. 典型的；特有的；表示特性的
+                          n. 特征；特性；特色
+transition            n. 过渡；转变；[分子生物] 转换；变调
+axisymmetric      adj. 轴对称的
+equivalent          adj. （在价值、数量等方面）相等的；等价的；等效的；等量的；同意义的
+                          n. 对等的人（或事物）；当量
+conduct              v. 组织，实施，进行；指挥（音乐）
+                          n. 行为举止；（管理）方式，（实施）办法
+                          vt. 举止，表现；带领，引导；传导（热或电）
+replicate             vt. 复制；折叠
+                          vi. 重复；折转
+                          adj. 复制的；折叠的
+ nominal             adj. 名义上的；有名无实的；[会计] 票面上的
+                           n. [语] 名词性词
+generic               adj. 类的；一般的；属的；非商标的
+axisymmetric      adj. 轴对称的
+divergent           adj. 相异的，分歧的；求异的，发散的；散开的
+diameter            n. 直径
+点名册路径：
+D:\Wechat\download\WeChat Files\wxid_k9e33idak2yh22\FileStorage\File\2021-04\章思龙(2020-2021-2-ES31081-002)点名册.xls
+第二次作业：
+D:\Wechat\download\WeChat Files\wxid_k9e33idak2yh22\FileStorage\File\2021-04\第二次作业.docx
+
+夫天地者，万物之逆旅也；光阴者，百代之过客也。而浮生若梦，为欢几何？
+古人秉烛夜游，良有以也。况阳春召我以烟景，大块假我以文章。会桃花之芳园，序天伦之乐事。
+群季俊秀，皆为惠连；吾人咏歌，独惭康乐。
+幽赏未已，高谈转清。开琼筵以坐花，飞羽觞而醉月。
+不有佳咏，何伸雅怀？如诗不成，罚依金谷酒数。
+
+他强任他强，清风拂山岗，让横任他横，明月照大江，他自狠来他自恶，我自一口真气足。
+明月多情应笑我，笑我如今；辜负春心，独自闲行独自吟；
+近来怕说当时事，结遍蓝襟；月浅灯深，梦里云归何处寻。
+天命孤星，独望苍穹，无所待而游无穷，如此逍遥一生，可谓真仙人。
+忽有故人心上过，回首山河已是秋
+
+
+np.random.choice(a, b) :从a个数据中随机选出b个，无大小顺序
+np.argmax(a, axis=0),返回值为每列元素最大值的索引，axis=1，每行
+python 中矩阵加减运算，如果维度不一致，比如2X3矩阵减1×3矩阵，则执行的是列相减，每列元素减去各自对应列的1×3矩阵
+
+np.nditer：
+y = np.arange(12).reshape(4, 3)
+it = np.nditer(y, flags=['multi_index'], op_flags=['readwrite'])
+print(y)
+while not it.finished:
+    print(it.multi_index)
+    print(y[it.multi_index])
+    it.iternext()
+
+一种批量修改数据的方法
+a = np.array([[1, -1], [-2, 9]])  # 创建两行两列的数组
+b = （a <= 0） # 将布尔值赋值给b
+a[b] = 0   # 将布尔值为True的赋值为零   
+
+开启电脑wifi：netsh wlan set hostednetwork mode=allow ssid=Rekoj key=gyj002050
+netsh wlan start hostednetwork
+netsh wlan stop hostednetwork  
+gpedit→管理模板→系统→Internet通讯管理→关闭 Windows 网络连接状态指示器活动测试→已启用
+计算机管理-设备管理-网络适配器-microsoft托管网络虚拟适配器
+
+打开：anaconda prompt→添加清华镜像源
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge 
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+输入命令：conda create -n Rekoj python=3.8
+输入：y
+如果有warning，运行warning提示的命令后再输入命令。
+
+下载完后激活刚才配置的环境：conda activate Rekoj
+进入pytorch官网安装
+
+
+关于dropout：
+https://zhuanlan.zhihu.com/p/38200980
+
+I am willing to be seen;
+I am willing to speak up;
+I am willing to keep going;
+I am willing to listen to what others have to say;
+I am willing to go forward even when I feel alone；
+I am willing to go to bed each night at peace with myself；
+I am willing to be my biggest，bestest， most powerful self；
+
+python：
+enumerate：对于一个可迭代的（iterable）/可遍历的对象（如列表、字符串），
+                    enumerate将其组成一个索引序列，利用它可以同时获得索引和值
+
+做个小总结：
+非常荣幸能够认识你，也非常感谢你能帮我完成我的flag。其实今天有一点紧张，感觉不太像平时的自己。平时都是别人说我听，今天话有点多。让我感觉美中不足之处是最后没有一起吃个晚餐，然后顺路来实验室，有点小遗憾（因为我潜意识以为你会先到实验室，也没注意到到晚餐的时间了）。
+
+https://blog.csdn.net/KeEN_Xwh/article/details/113478160
+
+我为你翻山越岭，却无心看风景。
+About pillow：http://c.biancheng.net/pillow/
+Chinese docx：https://pillow-docs-cn.readthedocs.io/zh_CN/latest/installation.html
+Try_expect_else_finally
+https://blog.csdn.net/qq_39478403/article/details/105846375
+
+我把第二次作业的答案整理了一下，仅供参考，有问题的可以找我。
+关于考试，我是局外人，我可以给你们压一压题：
+第一章，控制系统的组成，系统方框图；
+第二章，小偏差线性化；
+第三章：①终值定理，DC增益 ②系统建模方框图简化 ③给传递函数写出时域响应，或者反过来；④一阶，二阶系统的时域特性⑤Routh稳定判据；
+第四章：判断系统类型，表4-1，表4-1上边的三个式子；
+第五章：应该不考（个人意见）；
+第六章：（东西有点多，分享给你们我之前的笔记，看会第六章问题不大）
+
+
+最是人间留不住，朱颜辞镜花辞树
+百花发时我不发，我若发时都吓杀。要与西风战一场，遍身穿就黄金甲。
+杀尽江南百万兵，腰间宝剑血犹腥！老僧不识英雄汉，只管哓哓问姓名。
+时穷节乃现，一一垂丹青
+孔曰成仁，孟曰取义，惟其义尽，所以仁至。读圣贤书，所学何事？而今而后，庶几无愧。
+驱除胡虏，恢复中华，立纲陈纪，救济斯民
+天道好还，中国有必伸之理，人心效顺，匹夫无不报之仇。
+扩廓帖木耳
+它的光辉，它的荣耀，是我们每个人共同拥有的。它的阴暗，它的丑恶，是我们每个人共同承受
+月黑雁飞高，单于夜遁逃。欲将轻骑逐，大雪满弓刀！
+故兵无常势，水无常形。能因敌变化而取胜者，谓之神。
+生如夏花，逝如冬雪，人生如此，何悔何怨！
+
+获奖经历：
+？ 2017-2018 大一年度项目二等奖 
+？ 2017-2018 哈尔滨工业大学年度“优秀学生” 
+？ 2018年4月 “阳光经管杯”迎春环校接力赛第一名 
+？ 2018-2019 哈尔滨工业大学年度“优秀团干部—笃实践行奖” 
+？ 2018-2019 哈尔滨工业大学年度“优秀学生干部” 
+？ 2019年3月 哈尔滨工业大学能源学院“最佳寝室风采奖”（本人为寝室长） 
+？ 2019年6月 能源学院Power Club篮球联赛“优秀志愿者” 
+？ 2019年6月 哈尔滨工业大学第五十六届运动会男子4×400米接力季军 
+？ 2019年秋 能源学院“青年大学习”网上主题团课“优秀学员” 
+？ 2021年3月 能源学院“Power讲堂”优秀讲师 
+？ 2021年5月 2021届哈尔滨工业大学优秀毕业生 
+？ 2021年5月 哈尔滨工业大学能源学院毕业季三人篮球赛“季军” 
+岗位规划：
+申请系所学术与学业助理，负责先进动力所与环境所的学术与学业发展。
+
+
+when your dreams come alive you are unstoppable
+take a shot, chase the sun, find the beautiful
+we will glow in the dark turning dust to gold
+and we will dream it possible
+
+
+我们这个世界不缺完美的人，我们这个缺的是从自己内心发出的真心，无畏，勇敢和正直。
+我还是放弃吧，回家做我的面条；
+放弃，不放弃，做面条，不做面条；
+你患得患失，太在意从前，又太担心将来；
+有句话说的好，昨天是段历史，明天是个谜团，而今天是天赐的礼物，像珍惜礼物那样珍惜今天。
+明天的还没有到来，我们唯一能够把握的就是今天；
+对于可控的事情，要保持谨慎，对于不可控的事情，要保持乐观。
+人只能做自己能力范围内的事情，你要接受这个事实。并且以乐观的心去应对这一切
+人其实不可能真正的感动别人，人只可能自己感动自己
+夫英雄者，胸怀大志，腹有良策，有包藏宇宙之机，吞吐天地之志也
+玉可碎而不可改其白，竹可焚而不可毁其节，身虽死，名可垂于竹帛也！又可何惧哉！
+你等年纪轻轻一遇挫折，便松散懈怠，日后怎成大器？虽称满腹经纶，确是鸡肠鼠肚。连几句恶语都容它不下。
+谦卑，荣誉，牺牲，英勇，怜悯，诚实，公正，灵性。
+
+
+
+
+
